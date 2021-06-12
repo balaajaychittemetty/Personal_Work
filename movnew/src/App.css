@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.Genre,
+.Language,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: auto;
+  font-size: 3rem;
+}
+
+.home {
+  background-color: thistle;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.Genre{
+  background-color: tomato;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.Language {
+background-color: whitesmoke;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+#imgCards {
+  height:420px;
+  width:auto;
+}
+
+.sign-up {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+#heading{
+  font-family: 'Bebas Neue', cursive;
+  animation: blink ls linear infinite;
+  position: relative;
+  left: 10px;
+}
+
+.card:hover{
+  transform: scale(1.04);
+}
